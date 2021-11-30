@@ -30,7 +30,7 @@ specifiers:
   prism-theme-vars: ^0.2.2
   tailwindcss: ^2.2.19
   typescript: ^4.5.2
-  unplugin-auto-import: ^0.4.20
+  unplugin-auto-import: 0.5.1
   unplugin-icons: ^0.12.20
   unplugin-vue-components: ^0.17.2
   vite: ^2.6.14
@@ -85,7 +85,7 @@ devDependencies:
   postcss: 8.4.4
   tailwindcss: 2.2.19_6b4e3d148bdcb715d5f821ed0a9c268b
   typescript: 4.5.2
-  unplugin-auto-import: 0.4.20_@vueuse+core@7.1.2+vite@2.6.14
+  unplugin-auto-import: 0.5.1_@vueuse+core@7.1.2+vite@2.6.14
   unplugin-icons: 0.12.20_9417d93c2d611a99e242fff8baf59806
   unplugin-vue-components: 0.17.2_vite@2.6.14+vue@3.2.23
   vite: 2.6.14
@@ -7051,8 +7051,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import/0.4.20_@vueuse+core@7.1.2+vite@2.6.14:
-    resolution: {integrity: sha512-8JdSJXn16cHnWEtEDCY6A5EkewDyUiZjEM07eE70BofEc+cVBmF6wFtxgoHIXEh4A327ZL5Shw6ajatYtDbynw==}
+  /unplugin-auto-import/0.5.1_@vueuse+core@7.1.2+vite@2.6.14:
+    resolution: {integrity: sha512-Q3CvNbCB7nLbu+JdrF6jYs0Nx7kHmV2KzDcZHzTrdri3EhU1lUOgto+ce+Jw01Ds7RxBi9lwWwF3QoFwFPul1A==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
