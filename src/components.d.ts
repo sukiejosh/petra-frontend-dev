@@ -13,6 +13,8 @@ declare module 'vue' {
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    HomepageNav: typeof import('./components/homepage-nav.vue')['default']
+    MdiChevronDownCircleOutline: typeof import('~icons/mdi/chevron-down-circle-outline')['default']
     README: typeof import('./components/README.md')['default']
   }
 }
