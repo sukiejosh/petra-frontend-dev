@@ -4,8 +4,7 @@ import generatedRoutes from 'virtual:generated-pages'
 import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
 import './styles/main.css'
-import "./styles/tailwind.css"
-
+import './styles/tailwind.css'
 
 const routes = setupLayouts(generatedRoutes)
 

@@ -15,6 +15,8 @@ declare module 'vue' {
     Footer: typeof import('./components/Footer.vue')['default']
     HomepageNav: typeof import('./components/homepage-nav.vue')['default']
     MdiChevronDownCircleOutline: typeof import('~icons/mdi/chevron-down-circle-outline')['default']
+    MdiFilter: typeof import('~icons/mdi/filter')['default']
+    MdiFilterOutline: typeof import('~icons/mdi/filter-outline')['default']
     README: typeof import('./components/README.md')['default']
   }
 }
