@@ -103,6 +103,14 @@
 
 import { defineComponent, defineAsyncComponent } from 'vue'
 export default defineComponent({
+  setup() {
+    useHead({
+      title: 'Analytics',
+      meta: [
+        { name: 'description', content: 'Analytics' },
+      ],
+    })
+  },
   components: {
     apexChart: defineAsyncComponent(() => import('vue3-apexcharts'))
   },
