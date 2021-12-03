@@ -57,7 +57,7 @@
     </div>
     <div>
       <client-only>
-        <apexchart height="400" type="area" :options="chartOptions" :series="series" />
+        <apex-chart height="400" type="area" :options="chartOptions" :series="series" />
       </client-only>
     </div>
     <div class="font-bold lg:pl-6 text-2xl mt-10 text-center lg:text-left">Account expenses</div>
@@ -66,7 +66,7 @@
       class="flex flex-col w-full lg:items-center lg:flex-row lg:space-x-40"
     >
       <client-only>
-        <apexchart height="400" type="pie" :options="pieOptions" :series="Pseries" />
+        <apex-chart height="400" type="pie" :options="pieOptions" :series="Pseries" />
       </client-only>
       <div class="grid lg:grid-cols-4 grid-cols-1 lg:p-3 gap-5">
         <div v-for="(e,i) in expenses" :key="e.name" class="col-span-1">
@@ -103,6 +103,9 @@
 
 import { defineComponent, defineAsyncComponent } from 'vue'
 export default defineComponent({
+  components: {
+    apexChart: defineAsyncComponent(() => import('vue3-apexcharts'))
+  },
   data() {
     return {
 
